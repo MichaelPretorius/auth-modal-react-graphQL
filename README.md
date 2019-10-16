@@ -13,7 +13,3 @@
 * Apollo
 * Axios
 * Passport
-
-### Next steps: Full stack app with React, Python, Django, GraphQL 🏆
-
-### Foundation provided by Stephen Grider!
