@@ -1,0 +1,26 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; // This must be at a higher index to the rest of your page content
+  transform: translateZ(0);
+  background-color: rgba(#000, 0.65);
+  font-weight: bold;
+  text-align: center;
+}
+.modal-box {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
